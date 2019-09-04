@@ -3,7 +3,7 @@ project( cgsr )
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS "ON")
 
-find_package( OpenCV 3.0 REQUIRED )
+find_package( OpenCV REQUIRED core imgproc calib3d optflow highgui)
 
 file(GLOB SOURCE_FILES
     "src/*.h"

@@ -380,7 +380,7 @@ struct SuperResolution
         options.minimizer_progress_to_stdout = true;
         options.max_num_iterations = 100;
         options.num_threads = 4;
-        options.num_linear_solver_threads = 4;
+        // options.num_linear_solver_threads = 4;
         options.function_tolerance = 1e-2;
 
         MyIterationCallback mycb;
